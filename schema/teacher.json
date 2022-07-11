@@ -1,0 +1,17 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "teacher.schema.json",
+    "title": "Teacher",
+    "description": "A teacher entity schema",
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "parttern": "^[a-zA-Z0-9]{22}$"
+      },
+      "name": {
+        "type": "string"
+      },
+    "required": ["name"]
+  }
+}
